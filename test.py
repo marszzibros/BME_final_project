@@ -1,0 +1,2 @@
+model34_trained_unpretrained, train_loss_34_unpretrained, val_loss_34_unpretrained = train_model(model34_unpretrained, trainloader, valloader)
+model34_unpretrained_dict = produce_stats(model34_trained_unpretrained, testloader, train_loss_34_unpretrained, val_loss_34_unpretrained)
